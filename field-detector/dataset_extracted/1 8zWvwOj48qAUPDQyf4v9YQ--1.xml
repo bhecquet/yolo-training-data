@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>1 8zWvwOj48qAUPDQyf4v9YQ--1.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/1 8zWvwOj48qAUPDQyf4v9YQ--1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1035</width>
+        <height>936</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>486</xmin>
+            <ymin>169</ymin>
+            <xmax>906</xmax>
+            <ymax>269</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>53</xmin>
+            <ymin>153</ymin>
+            <xmax>913</xmax>
+            <ymax>281</ymax>
+        </bndbox>
+    </object></annotation>

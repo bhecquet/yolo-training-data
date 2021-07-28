@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>form_02--1.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/form_02--1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>380</width>
+        <height>317</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    </annotation>

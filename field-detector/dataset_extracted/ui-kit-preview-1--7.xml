@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>ui-kit-preview-1--7.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/ui-kit-preview-1--7.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>416</width>
+        <height>416</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>39</xmin>
+            <ymin>124</ymin>
+            <xmax>269</xmax>
+            <ymax>184</ymax>
+        </bndbox>
+    </object></annotation>

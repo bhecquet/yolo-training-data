@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>vast--6.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/vast--6.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>336</width>
+        <height>108</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>button</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>209</xmin>
+            <ymin>39</ymin>
+            <xmax>303</xmax>
+            <ymax>89</ymax>
+        </bndbox>
+    </object></annotation>

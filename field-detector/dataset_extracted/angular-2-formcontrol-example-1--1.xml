@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>angular-2-formcontrol-example-1--1.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/angular-2-formcontrol-example-1--1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>234</width>
+        <height>205</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    </annotation>

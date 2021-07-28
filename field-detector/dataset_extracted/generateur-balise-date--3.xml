@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>generateur-balise-date--3.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/generateur-balise-date--3.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>991</width>
+        <height>191</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>8</xmin>
+            <ymin>62</ymin>
+            <xmax>974</xmax>
+            <ymax>126</ymax>
+        </bndbox>
+    </object></annotation>

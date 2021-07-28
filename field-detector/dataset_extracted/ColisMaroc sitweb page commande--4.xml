@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>ColisMaroc sitweb page commande--4.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/ColisMaroc sitweb page commande--4.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>416</width>
+        <height>416</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>65</xmin>
+            <ymin>15</ymin>
+            <xmax>349</xmax>
+            <ymax>78</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>64</xmin>
+            <ymin>94</ymin>
+            <xmax>80</xmax>
+            <ymax>111</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>51</xmin>
+            <ymin>346</ymin>
+            <xmax>369</xmax>
+            <ymax>380</ymax>
+        </bndbox>
+    </object></annotation>

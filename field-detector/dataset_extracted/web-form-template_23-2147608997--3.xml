@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>web-form-template_23-2147608997--3.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/web-form-template_23-2147608997--3.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>327</width>
+        <height>191</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    </annotation>

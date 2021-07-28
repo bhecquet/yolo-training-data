@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>call-of-duty-signup-form-design-example--1.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/call-of-duty-signup-form-design-example--1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>331</width>
+        <height>201</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    </annotation>

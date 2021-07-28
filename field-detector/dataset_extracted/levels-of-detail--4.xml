@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>levels-of-detail--4.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/levels-of-detail--4.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>591</width>
+        <height>462</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>16</xmin>
+            <ymin>334</ymin>
+            <xmax>565</xmax>
+            <ymax>415</ymax>
+        </bndbox>
+    </object></annotation>

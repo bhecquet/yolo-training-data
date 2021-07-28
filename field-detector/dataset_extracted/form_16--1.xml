@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>form_16--1.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/form_16--1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>417</width>
+        <height>315</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>111</xmin>
+            <ymin>122</ymin>
+            <xmax>338</xmax>
+            <ymax>276</ymax>
+        </bndbox>
+    </object></annotation>

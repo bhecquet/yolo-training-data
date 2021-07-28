@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>scr-3--2.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/scr-3--2.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>267</width>
+        <height>131</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>button</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>85</xmin>
+            <ymin>41</ymin>
+            <xmax>243</xmax>
+            <ymax>90</ymax>
+        </bndbox>
+    </object></annotation>
