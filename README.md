@@ -18,16 +18,24 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 %cd /content/
+
+# import yolo project
 !rm -rf yolov3
 !git clone https://github.com/bhecquet/yolov3
+
+# import training data project
+!rm -rf yolo-training-data
+!git clone https://github.com/bhecquet/yolo-training-data
+
 %cd yolov3
 ```
 
 #### 3. generate dataset ####
 
+Exemple pour les données "field-detector"
 ```
 # création des données de test / entrainement
-!python generate_train_files.py <folder1> <folder2>
+!python /content/yolo-training-data/generate_train_files.py /content/yolo-training-data/field-detector/dataset_extracted /content/yolo-training-data/field-detector/dataset_generated_small --output /content/yolov3/dataset
 ```
 
 #### 4. Train ####
@@ -38,10 +46,10 @@ import os
 from IPython.display import Image, clear_output 
 print('PyTorch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if torch.cuda.is_available() else 'CPU'))
 best_fitness = 0.0
-cfg = 'web-generated.yaml'
-model = 'yolov5m.pt'
+cfg = '/content/yolo-training-data/field-detector/data/web-generated.yaml'
+model = 'yolov3-tiny.pt'
 
-epoch_to_run = 40
+epoch_to_run = 3
 
 name = os.path.basename(cfg).split(".")[0] + '-' + model.split('.')[0]
 
@@ -49,8 +57,9 @@ name = os.path.basename(cfg).split(".")[0] + '-' + model.split('.')[0]
 !python train.py --img 448 --batch 16 --epochs $epoch_to_run --data $cfg --weights $model --name $name --exist-ok 
 weights_file_path = '/content/yolov3/runs/train/%s/weights/best.pt' % (name)
 w = torch.load(weights_file_path)
-epochs_completed = str(w['epoch'])
+
 fitness = w['best_fitness']
+print("epoch completed: " + epoch_to_run)
 print("mAp: " + str(fitness))
 
 !cp /content/yolov3/runs/train/{name}/weights/best.pt /content/drive/My\ Drive/best_{name}_{epochs_completed}.pt
