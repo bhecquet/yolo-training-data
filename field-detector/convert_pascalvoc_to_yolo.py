@@ -193,7 +193,8 @@ if __name__ == '__main__':
         if os.path.splitext(file_path)[1] == '.xml':
             convert(file_path, args.output)
             
-    with open(os.path.join(args.output, 'all_classes.txt'), 'w') as classes_file:
+    local_dir = os.path.dirname(os.path.basename(__file__))
+    with open(os.path.join(local_dir, 'data', 'web-generated.names'), 'w') as classes_file:
         for class_name in classes:
             classes_file.write(class_name + "\n")
 
