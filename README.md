@@ -27,7 +27,7 @@ drive.mount('/content/drive')
 
 ```
 # création des données de test / entrainement
-!python generate_train_files.py
+!python generate_train_files.py <folder1> <folder2>
 ```
 
 #### 4. Train ####
