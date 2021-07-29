@@ -44,4 +44,10 @@ By default, 2000 pictures are created in `out` folder, you can change this value
 ```python
 number_of_images = 2000
 ```
+To see the detection zones written to XML file, set
+```python
+DEBUG = True
+```
+**Do not commit these files created in DEBUG**
+
 Once happy with generation, move the content of `out` folder to `dataset_generated_small`
