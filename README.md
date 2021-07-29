@@ -23,7 +23,14 @@ drive.mount('/content/drive')
 %cd yolov3
 ```
 
-#### 3. Train ####
+#### 3. generate dataset ####
+
+```
+# création des données de test / entrainement
+!python generate_train_files.py <folder1> <folder2>
+```
+
+#### 4. Train ####
 
 ```
 import torch
