@@ -9,6 +9,7 @@ This folder contains all pictures and configuration for training a Yolo model to
 
 # 0. Prepare dataset #
 
+- Install requirements with `pip install -r requirements.txt`
 - Generate small pictures (see below)
 - If number or type of classes has been updated, change the file `data/web-generated.yaml` file accordingly (**order of classes is important!**)
 - Generate forms (see below)
@@ -32,10 +33,6 @@ At the end, **Don't forget to commit de changes**
 # 2. Generate forms #
 
 `generate-html.py` script will create pictures with various forms so that training can be more accurate
-
-## Configuration ##
-
-Install requirements with `pip install -r requirements.txt`
 
 ## Generation ##
 
