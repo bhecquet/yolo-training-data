@@ -21,3 +21,38 @@ Optimizer stripped from runs/train/web-generated-yolov3-tiny/weights/best.pt, 17
 epoch completed: -1
 mAp: [    0.71474]
 
+Yolov5M - 60 epoch:
+-------------------
+
+ Epoch   gpu_mem       box       obj       cls    labels  img_size
+     59/59     4.69G   0.02219   0.03566    0.0101        20       448: 100% 171/171 [00:46<00:00,  3.64it/s]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 10/10 [00:05<00:00,  1.96it/s]
+                 all        290       3893      0.983      0.978      0.992      0.891
+               field        290        706      0.981      0.956      0.987      0.897
+               radio        290        440      0.993      0.991      0.995      0.835
+              button        290        278      0.964      0.967      0.991      0.942
+    radio_with_label        290        444      0.998      0.957      0.986      0.883
+    field_with_label        290        601      0.959      0.962      0.988      0.885
+          field_line        290        283      0.986      0.996      0.995      0.897
+            checkbox        290        437      0.993      0.991      0.995      0.849
+ checkbox_with_label        290        434      0.982      0.986      0.995      0.905
+field_line_with_label        290        270      0.987          1      0.995      0.929
+60 epochs completed in 0.873 hours.
+
+Yolov5L - 40 epochs:
+--------------------
+
+Epoch   gpu_mem       box       obj       cls    labels  img_size
+     39/39     6.88G   0.02316   0.03737   0.01029        54       448: 100% 171/171 [01:02<00:00,  2.72it/s]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100% 10/10 [00:05<00:00,  1.84it/s]
+                 all        290       3893      0.981      0.977      0.992      0.884
+               field        290        706      0.965      0.966      0.989      0.892
+               radio        290        440      0.993      0.992      0.995       0.83
+              button        290        278      0.978      0.942      0.992      0.943
+    radio_with_label        290        444      0.976      0.973      0.991      0.871
+    field_with_label        290        601      0.967      0.934      0.982      0.875
+          field_line        290        283       0.99      0.996      0.995      0.896
+            checkbox        290        437      0.997      0.993      0.995      0.847
+ checkbox_with_label        290        434      0.983      0.993      0.995      0.889
+field_line_with_label        290        270      0.984          1      0.995      0.916
+40 epochs completed in 0.773 hours.
