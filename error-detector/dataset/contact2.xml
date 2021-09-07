@@ -1,0 +1,14 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>contact2.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\contact2.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>566</width>
+		<height>662</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>InstantiationForm-errorOnSubmit.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\InstantiationForm-errorOnSubmit.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>939</width>
+		<height>424</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>65</ymin>
+			<xmax>324</xmax>
+			<ymax>85</ymax>
+		</bndbox>
+	</object>
+</annotation>

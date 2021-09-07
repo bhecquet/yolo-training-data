@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>Twitter-Form-Validation-Error-UI-Design-Pattern.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\Twitter-Form-Validation-Error-UI-Design-Pattern.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>528</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>393</xmin>
+			<ymin>138</ymin>
+			<xmax>582</xmax>
+			<ymax>166</ymax>
+		</bndbox>
+	</object>
+</annotation>

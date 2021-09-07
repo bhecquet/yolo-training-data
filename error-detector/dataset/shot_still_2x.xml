@@ -1,0 +1,14 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>shot_still_2x.webp</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\shot_still_2x.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

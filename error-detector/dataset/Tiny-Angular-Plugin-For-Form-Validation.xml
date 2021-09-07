@@ -1,0 +1,26 @@
+<annotation>
+	<folder>error-detector</folder>
+	<filename>Tiny-Angular-Plugin-For-Form-Validation.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\Tiny-Angular-Plugin-For-Form-Validation.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>511</width>
+		<height>380</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>110</ymin>
+			<xmax>191</xmax>
+			<ymax>128</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>k49nh.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\k49nh.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>592</width>
+		<height>344</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>154</xmin>
+			<ymin>195</ymin>
+			<xmax>312</xmax>
+			<ymax>211</ymax>
+		</bndbox>
+	</object>
+</annotation>

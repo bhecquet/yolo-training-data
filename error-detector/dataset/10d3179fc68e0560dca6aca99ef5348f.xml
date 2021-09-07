@@ -1,0 +1,14 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>10d3179fc68e0560dca6aca99ef5348f.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\10d3179fc68e0560dca6aca99ef5348f.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>397</width>
+		<height>602</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

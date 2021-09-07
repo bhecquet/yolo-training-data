@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>g773mI6.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\g773mI6.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>501</width>
+		<height>336</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_field</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>77</ymin>
+			<xmax>487</xmax>
+			<ymax>130</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,14 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>mceclip0.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\mceclip0.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>597</width>
+		<height>332</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

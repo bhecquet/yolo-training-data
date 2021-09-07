@@ -1,0 +1,14 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>ppwp-unknown-username.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\ppwp-unknown-username.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>488</width>
+		<height>596</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>
