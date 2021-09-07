@@ -1,5 +1,8 @@
 This folder contains all pictures and configuration for training a Yolo model to detect fields (text fields, checkbox, ...) on a picture
 
+![10_Web_Form_Examples_Youll_Want_to_Copy_Immediately-5](https://user-images.githubusercontent.com/18628677/127657486-c025e7aa-febc-4421-9db7-51b0cbbc23a1.jpg)
+
+
 - `generate-html.py` is a script that generates forms (see below)
 - `convert_pascalvoc_to_yolo.py` from `dataset_real` folder, generate small pictures
 - `generate_train_file.py` creates folders used for training by picking up files from any directory and putting them to a `dataset` folder
