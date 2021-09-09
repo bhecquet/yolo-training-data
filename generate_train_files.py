@@ -73,6 +73,6 @@ if __name__ == '__main__':
             logging.error("Folder %s does not exist" % folder)
             sys.exit(1)
             
-    create_dataset(args.folders, args.output)
+    create_dataset(args.folders, args.output, args.testpercent)
             
             
