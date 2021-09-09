@@ -9,12 +9,14 @@ import logging
 import argparse
 import sys
 
-def create_dataset(folders, dataset_folder):
+def create_dataset(folders, dataset_folder, percentage_test=10):
+    """
+    @param percentage_test:  Percentage of images to be used for the test set
+    """
     
     
     
-    # Percentage of images to be used for the test set
-    percentage_test = 10;
+    
     dataset_training_folder = os.path.join(dataset_folder, 'training')
     dataset_testing_folder = os.path.join(dataset_folder, 'testing')
     dataset_training_images_folder = os.path.join(dataset_training_folder, 'images')
@@ -61,6 +63,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Tool creating dataset folder with structure compatible with yolo project')
     parser.add_argument('folders', nargs='+', help='source folders to include in dataset')
     parser.add_argument('--output', help='Output directory where files will be written', default=local_path + 'dataset')
+    parser.add_argument('--testpercent', help='percentage of files that will serve as test', default=10, type=int)
     
     args = parser.parse_args()
     
