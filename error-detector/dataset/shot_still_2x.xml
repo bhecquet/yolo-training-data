@@ -1,7 +1,7 @@
 <annotation>
 	<folder>dataset</folder>
-	<filename>shot_still_2x.webp</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\shot_still_2x.webp</path>
+	<filename>shot_still_2x.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\shot_still_2x.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>

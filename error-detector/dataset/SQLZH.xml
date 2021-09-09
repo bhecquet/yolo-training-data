@@ -1,7 +1,7 @@
 <annotation>
 	<folder>dataset</folder>
-	<filename>SQLZH.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\SQLZH.png</path>
+	<filename>SQLZH.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\SQLZH.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>dataset</folder>
-	<filename>FormFeedbackError.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\FormFeedbackError.png</path>
+	<filename>FormFeedbackError.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\FormFeedbackError.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

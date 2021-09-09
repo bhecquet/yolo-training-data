@@ -1,7 +1,7 @@
 <annotation>
 	<folder>dataset</folder>
-	<filename>some-errors.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\some-errors.png</path>
+	<filename>some-errors.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\some-errors.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

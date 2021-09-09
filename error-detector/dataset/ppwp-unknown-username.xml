@@ -1,7 +1,7 @@
 <annotation>
 	<folder>dataset</folder>
-	<filename>ppwp-unknown-username.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\ppwp-unknown-username.png</path>
+	<filename>ppwp-unknown-username.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\ppwp-unknown-username.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
