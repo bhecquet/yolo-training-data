@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>Form with validation2.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\Form with validation2.png</path>
+	<filename>Form with validation2.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/Form with validation2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

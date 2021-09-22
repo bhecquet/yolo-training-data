@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>Live Form Validation.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\Live Form Validation.png</path>
+	<filename>Live Form Validation.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/Live Form Validation.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

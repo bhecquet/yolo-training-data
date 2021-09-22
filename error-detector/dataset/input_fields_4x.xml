@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>dataset</folder>
-	<filename>input_fields_4x.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\input_fields_4x.png</path>
+	<filename>input_fields_4x.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/input_fields_4x.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

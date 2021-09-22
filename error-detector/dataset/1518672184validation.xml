@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>dataset</folder>
-	<filename>1518672184validation.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\1518672184validation.png</path>
+	<filename>1518672184validation.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/1518672184validation.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

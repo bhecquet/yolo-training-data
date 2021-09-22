@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>Error Message Design Showcase Smiley Cat.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\Error Message Design Showcase Smiley Cat.png</path>
+	<filename>Error Message Design Showcase Smiley Cat.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/Error Message Design Showcase Smiley Cat.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

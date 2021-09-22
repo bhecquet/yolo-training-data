@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>shopify-online-form-error-message.webp</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\shopify-online-form-error-message.webp</path>
+	<filename>shopify-online-form-error-message.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/shopify-online-form-error-message.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

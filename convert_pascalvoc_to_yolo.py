@@ -28,12 +28,27 @@ allowed_classes = ['field',
                    'field_line_with_label',   
                    '_form_']
 
+def convert_to_jpg(image_file_path):
+    """
+    if file is not jpg, convert to jpg
+    """
+    if image_file_path.lower().endswith(".jpg") or image_file_path.lower().endswith(".jpeg"):
+        return image_file_path, False
+    
+    jpg_image_file_path = image_file_path.replace(os.path.splitext(image_file_path)[1], '.jpg')
+    
+    if not os.path.isfile(jpg_image_file_path):
+        Image.open(image_file_path).convert("RGB").save(jpg_image_file_path, "jpeg")
+    
+    return jpg_image_file_path, True
+
 def convert(xml_file_path, output_dir):
     """
     convert XML file created by LabelImg (PascalVOC format) to yolo format file
     """
     boxes = []
     forms = []
+    image_converted = False
     
     with open(xml_file_path, 'r') as xml_file:
         
@@ -46,6 +61,13 @@ def convert(xml_file_path, output_dir):
         
         image_file =  document.getElementsByTagName('filename')[0].firstChild.nodeValue
         image_file_path = os.path.dirname(xml_file_path) + os.sep + image_file
+        
+        # convert image and update XML
+        image_file_path, image_converted = convert_to_jpg(image_file_path)
+        
+        if image_converted:
+            document.getElementsByTagName('path')[0].firstChild.nodeValue = image_file_path
+            document.getElementsByTagName('filename')[0].firstChild.nodeValue = os.path.basename(image_file_path)
         
         for detect_object in document.getElementsByTagName('object'):
             class_name = detect_object.getElementsByTagName('name')[0].firstChild.nodeValue
@@ -87,6 +109,11 @@ def convert(xml_file_path, output_dir):
         with open(os.path.join(os.path.dirname(xml_file_path), os.path.basename(xml_file_path).replace('.xml', '.txt')), 'w') as yolo_file:
             for box in boxes:
                 yolo_file.write("{} {:6f} {:6f} {:6f} {:6f}\n".format(box.class_id, *convert_coords_to_yolo(box.x_min, box.x_max, box.y_min, box.y_max, image_width, image_height)))
+
+    # update XML file
+    if image_converted:
+        with open(xml_file_path, 'w') as xml_file:
+            document.writexml(xml_file)
 
 def convert_coords_to_yolo(x_min, x_max, y_min, y_max, image_width, image_height):
     return ((x_max + x_min) / (2 * image_width),   # x % for the center of the box

@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>checkout_png by Kohut Piotr.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\checkout_png by Kohut Piotr.png</path>
+	<filename>checkout_png by Kohut Piotr.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/checkout_png by Kohut Piotr.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

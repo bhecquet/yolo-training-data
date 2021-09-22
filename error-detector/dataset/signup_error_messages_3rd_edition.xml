@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>signup_error_messages_3rd_edition.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\signup_error_messages_3rd_edition.png</path>
+	<filename>signup_error_messages_3rd_edition.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/signup_error_messages_3rd_edition.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

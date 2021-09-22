@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>dataset</folder>
-	<filename>bootstrap alerts.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\dataset\bootstrap alerts.png</path>
+	<filename>bootstrap alerts.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/bootstrap alerts.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

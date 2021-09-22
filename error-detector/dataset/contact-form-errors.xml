@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>contact-form-errors.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\contact-form-errors.png</path>
+	<filename>contact-form-errors.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/contact-form-errors.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

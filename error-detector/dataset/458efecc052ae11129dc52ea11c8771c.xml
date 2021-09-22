@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>458efecc052ae11129dc52ea11c8771c.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\458efecc052ae11129dc52ea11c8771c.png</path>
+	<filename>458efecc052ae11129dc52ea11c8771c.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/458efecc052ae11129dc52ea11c8771c.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

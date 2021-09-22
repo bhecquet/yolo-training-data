@@ -1,7 +1,7 @@
-<annotation>
+<?xml version="1.0" ?><annotation>
 	<folder>new</folder>
-	<filename>This Is UX Writing at Its Very Best.png</filename>
-	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\This Is UX Writing at Its Very Best.png</path>
+	<filename>This Is UX Writing at Its Very Best.jpg</filename>
+	<path>/media/userdata/worm/workspace/yolo-training-data/error-detector/dataset/This Is UX Writing at Its Very Best.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
