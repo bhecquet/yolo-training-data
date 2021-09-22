@@ -1,0 +1,50 @@
+<annotation>
+	<folder>new</folder>
+	<filename>mobile-version_png by Jawad.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\mobile-version_png by Jawad.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>760</width>
+		<height>1300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>214</xmin>
+			<ymin>251</ymin>
+			<xmax>633</xmax>
+			<ymax>308</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>555</xmin>
+			<ymin>565</ymin>
+			<xmax>680</xmax>
+			<ymax>579</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>error_field</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>160</xmin>
+			<ymin>590</ymin>
+			<xmax>681</xmax>
+			<ymax>637</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>new</folder>
+	<filename>Login error message on MailChimp login page.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\Login error message on MailChimp login page.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1227</width>
+		<height>1578</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>254</xmin>
+			<ymin>406</ymin>
+			<xmax>1013</xmax>
+			<ymax>482</ymax>
+		</bndbox>
+	</object>
+</annotation>

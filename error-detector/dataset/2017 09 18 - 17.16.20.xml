@@ -1,0 +1,38 @@
+<annotation>
+	<folder>new</folder>
+	<filename>2017 09 18 - 17.16.20.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\2017 09 18 - 17.16.20.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>632</width>
+		<height>380</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_field</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>314</xmin>
+			<ymin>222</ymin>
+			<xmax>460</xmax>
+			<ymax>244</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>222</xmin>
+			<ymin>256</ymin>
+			<xmax>309</xmax>
+			<ymax>271</ymax>
+		</bndbox>
+	</object>
+</annotation>

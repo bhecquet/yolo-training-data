@@ -1,0 +1,38 @@
+<annotation>
+	<folder>new</folder>
+	<filename>Form Layouts 6 Best Practices and Great Examples to Follow-3.webp</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\Form Layouts 6 Best Practices and Great Examples to Follow-3.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>778</width>
+		<height>570</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_field</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>204</xmin>
+			<ymin>450</ymin>
+			<xmax>640</xmax>
+			<ymax>512</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>202</xmin>
+			<ymin>524</ymin>
+			<xmax>749</xmax>
+			<ymax>554</ymax>
+		</bndbox>
+	</object>
+</annotation>

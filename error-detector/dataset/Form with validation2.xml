@@ -1,0 +1,26 @@
+<annotation>
+	<folder>new</folder>
+	<filename>Form with validation2.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\Form with validation2.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>30</xmin>
+			<ymin>175</ymin>
+			<xmax>356</xmax>
+			<ymax>203</ymax>
+		</bndbox>
+	</object>
+</annotation>

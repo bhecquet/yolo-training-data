@@ -1,0 +1,26 @@
+<annotation>
+	<folder>new</folder>
+	<filename>Alert _ Error Messages.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\Alert _ Error Messages.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>133</xmin>
+			<ymin>168</ymin>
+			<xmax>228</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+</annotation>

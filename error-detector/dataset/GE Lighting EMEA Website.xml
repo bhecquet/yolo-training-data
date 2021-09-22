@@ -1,0 +1,14 @@
+<annotation>
+	<folder>new</folder>
+	<filename>GE Lighting EMEA Website.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\GE Lighting EMEA Website.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>868</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

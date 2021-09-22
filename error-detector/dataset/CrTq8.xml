@@ -1,0 +1,26 @@
+<annotation>
+	<folder>new</folder>
+	<filename>CrTq8.jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\CrTq8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>417</width>
+		<height>380</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>104</ymin>
+			<xmax>267</xmax>
+			<ymax>123</ymax>
+		</bndbox>
+	</object>
+</annotation>

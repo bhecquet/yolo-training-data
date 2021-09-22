@@ -1,0 +1,14 @@
+<annotation>
+	<folder>new</folder>
+	<filename>Drop Down (PSD Attached).jpg</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\Drop Down (PSD Attached).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

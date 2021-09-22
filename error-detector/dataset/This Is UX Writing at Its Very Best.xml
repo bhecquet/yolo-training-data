@@ -1,0 +1,50 @@
+<annotation>
+	<folder>new</folder>
+	<filename>This Is UX Writing at Its Very Best.png</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\This Is UX Writing at Its Very Best.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>617</width>
+		<height>867</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_field</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>124</xmin>
+			<ymin>493</ymin>
+			<xmax>533</xmax>
+			<ymax>524</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>531</ymin>
+			<xmax>510</xmax>
+			<ymax>565</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>138</xmin>
+			<ymin>207</ymin>
+			<xmax>379</xmax>
+			<ymax>227</ymax>
+		</bndbox>
+	</object>
+</annotation>

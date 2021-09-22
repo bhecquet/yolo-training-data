@@ -1,0 +1,26 @@
+<annotation>
+	<folder>new</folder>
+	<filename>netflix-online-form-error-message.webp</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\netflix-online-form-error-message.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>993</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>324</xmin>
+			<ymin>600</ymin>
+			<xmax>447</xmax>
+			<ymax>635</ymax>
+		</bndbox>
+	</object>
+</annotation>

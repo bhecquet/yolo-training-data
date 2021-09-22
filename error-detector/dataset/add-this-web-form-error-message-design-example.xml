@@ -1,0 +1,26 @@
+<annotation>
+	<folder>new</folder>
+	<filename>add-this-web-form-error-message-design-example.webp</filename>
+	<path>D:\Dev\yolo\yolo-training-data\error-detector\new\add-this-web-form-error-message-design-example.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>553</width>
+		<height>737</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>error_message</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>60</xmin>
+			<ymin>117</ymin>
+			<xmax>266</xmax>
+			<ymax>137</ymax>
+		</bndbox>
+	</object>
+</annotation>
