@@ -10,6 +10,7 @@ import os
 import yaml
 from form_generator.tools import set_classes
 from field_detector.FormGenerator import FormGenerator as FormGeneratorForFieldDetector
+from error_detector.FormGenerator import FormGenerator as FormGeneratorForErrorDetector
 
 
                     
@@ -39,4 +40,7 @@ if __name__ == '__main__':
    
     if args.modelName == 'field_detector':
         generator = FormGeneratorForFieldDetector(args.output, 2)
-        generator.generate()
+    elif args.modelName == 'error_detector':
+        generator = FormGeneratorForErrorDetector(args.output, 200)
+        
+    generator.generate()

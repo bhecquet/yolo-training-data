@@ -41,7 +41,7 @@ class TextFieldLine:
     
         field_x = x + self.label_outside_width + 20
 
-        image_draw.line([(field_x, y + self.height), (field_x + self.width, y + self.height)], fill=self.border_color)
+        image_draw.line([(field_x, y + self.height), (field_x + self.width, y + self.height)], fill=self.border_color, width=2)
   
         if self.label_outside:
             image_draw.text((x, y + (self.height - label_height) / 2), self.label_outside, font=self.font, fill=self.label_outside_color)

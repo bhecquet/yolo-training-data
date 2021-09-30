@@ -33,22 +33,22 @@ class Form:
         boxes = element.draw(x, y, self.img, self.img_draw)
 
         # compute bounding box coordinates in yolo format (class_id, center_x, center_y, width, height). All coordinates are computed relative to picture size
-        coordinates = [(boxes[0].class_id,
+        coordinates = [[boxes[0].class_id,
                 (2 * boxes[0].x + boxes[0].w) / (2 * self.width),
                 (2 * boxes[0].y + boxes[0].h) / (2 * self.height),
                 boxes[0].w / self.width,
                 boxes[0].h / self.height
-                )]
+                ]]
         boxes[0].debug(self.img_draw)
         
         if len(boxes) > 1:
             coordinates.append(
-                (boxes[1].class_id,
+                [boxes[1].class_id,
                 (2 * boxes[1].x + boxes[1].w) / (2 * self.width),
                 (2 * boxes[1].y + boxes[1].h) / (2 * self.height),
                 boxes[1].w / self.width,
                 boxes[1].h / self.height
-                )
+                ]
             )
             boxes[1].debug(self.img_draw)
             
@@ -65,4 +65,5 @@ class Form:
             
         with open(path.replace('.jpg', '.txt'), 'w') as yolo:
             for yolo_coordinate in yolo_coordinates:
-                yolo.write("{} {:6f} {:6f} {:6f} {:6f}\n".format(*yolo_coordinate))
+                if yolo_coordinate[0] is not None:
+                    yolo.write("{} {:6f} {:6f} {:6f} {:6f}\n".format(*yolo_coordinate))
