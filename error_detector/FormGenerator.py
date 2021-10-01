@@ -166,54 +166,53 @@ class FormGenerator(object):
                 
                 # keep only fields in error
                 if field_in_error:
-                    print("field error %d:%s" % (row_id, field_name))
                     text_field_yolo_coordinates[0][0] = get_class_id('error_field')
                 
                 yolo_coordinates += text_field_yolo_coordinates
                 
             # messages
-            message_width = random.randint(form_width - 150, form_width - 50)
-            message_font_size = random.uniform(0.5, field_font_size)
-            message_font = ImageFont.truetype("form_generator/arial.ttf", int(field_height * message_font_size))
-            message_text = generate_random_string(random.randint(10, 100), message_width, form.img_draw, message_font)
-            message_height = form.img_draw.textsize(message_text, message_font)[1]
-            
-            message_in_error = random.choices([True, False])[0]
+            for message_id in range(2):
+                message_width = random.randint(form_width - 150, form_width - 50)
+                message_font_size = random.uniform(0.5, field_font_size)
+                message_font = ImageFont.truetype("form_generator/arial.ttf", int(field_height * message_font_size))
+                message_text = generate_random_string(random.randint(10, 100), message_width, form.img_draw, message_font)
+                message_height = form.img_draw.textsize(message_text, message_font)[1]
                 
-            if message_in_error:
-                # background in red
-                if random.choices([True, False])[0]:
-                    message_background = generate_lighter_color(generate_red_color(), random.randint(35, 65))
-                    text_color = label_color
+                message_in_error = random.choices([True, False])[0]
                     
-                # text in red
+                if message_in_error:
+                    # background in red
+                    if random.choices([True, False])[0]:
+                        message_background = generate_lighter_color(generate_red_color(), random.randint(35, 65))
+                        text_color = label_color
+                        
+                    # text in red
+                    else:
+                        message_background = None
+                        text_color = generate_red_color()
                 else:
                     message_background = None
-                    text_color = generate_red_color()
-                print("message error")
-            else:
-                message_background = None
-                text_color = label_color
-            
-            
-            message = Message(width=message_width, 
-                              height=message_height, 
-                              background_color=message_background, 
-                              text=message_text, 
-                              text_color=text_color, 
-                              font=message_font)
-           
-            message_yolo_coordinates = form.draw((form_width - message_width) / 2, 
-                                          message, 
-                                          rows - 3, 
-                                          y_offset_after_text_fields)
-             
-            # keep only messages in error
-            if message_in_error:
-                message_yolo_coordinates[0][0] = get_class_id('error_message')
-            
-
-            yolo_coordinates += message_yolo_coordinates
+                    text_color = label_color
+                
+                
+                message = Message(width=message_width, 
+                                  height=message_height, 
+                                  background_color=message_background, 
+                                  text=message_text, 
+                                  text_color=text_color, 
+                                  font=message_font)
+               
+                message_yolo_coordinates = form.draw((form_width - message_width) / 2, 
+                                              message, 
+                                              rows - 3 + message_id * 2, 
+                                              y_offset_after_text_fields)
+                 
+                # keep only messages in error
+                if message_in_error:
+                    message_yolo_coordinates[0][0] = get_class_id('error_message')
+                
+    
+                yolo_coordinates += message_yolo_coordinates
         
             image_quality = random.randint(70, 100)
             

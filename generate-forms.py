@@ -39,8 +39,8 @@ if __name__ == '__main__':
     set_classes(extract_class_names(args.modelConf)) 
    
     if args.modelName == 'field_detector':
-        generator = FormGeneratorForFieldDetector(args.output, 2)
+        generator = FormGeneratorForFieldDetector(args.output, 2000)
     elif args.modelName == 'error_detector':
-        generator = FormGeneratorForErrorDetector(args.output, 200)
+        generator = FormGeneratorForErrorDetector(args.output, 1000)
         
     generator.generate()
