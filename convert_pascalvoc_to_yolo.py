@@ -12,21 +12,8 @@ import shutil
 from PIL import Image
 import yaml
 
-classes = []
 ObjectBox = collections.namedtuple('ObjectBox', ['class_id', 'x_min', 'x_max', 'y_min', 'y_max'])
-
-# list of classes that we want exported to yolo text files
-# order depends on class_id defined in 'generate-html.py'
-allowed_classes = ['field', 
-                   'button', 
-                   'checkbox', 
-                   'radio', 
-                   'field_with_label',
-                   'checkbox_with_label',
-                   'radio_with_label',
-                   'field_line', 
-                   'field_line_with_label',   
-                   '_form_']
+allowed_classes = []
 
 def convert_to_jpg(image_file_path):
     """
@@ -74,10 +61,7 @@ def convert(xml_file_path, output_dir):
             
             if class_name not in allowed_classes:
                 continue
-            
-            if class_name not in classes and class_name != '_form_':
-                classes.append(class_name)
-                
+      
             box = detect_object.getElementsByTagName('bndbox')[0]
             xmin = int(box.getElementsByTagName('xmin')[0].firstChild.nodeValue)
             ymin = int(box.getElementsByTagName('ymin')[0].firstChild.nodeValue)
@@ -95,7 +79,7 @@ def convert(xml_file_path, output_dir):
                                     )
                 forms.append(object_box)
             else:
-                object_box = ObjectBox(classes.index(class_name),
+                object_box = ObjectBox(allowed_classes.index(class_name),
                                    xmin,
                                    xmax,
                                    ymin,
@@ -151,7 +135,7 @@ def create_pascal_voc_file(folder, filename, image_width, image_height, boxes):
             <xmax>{}</xmax>
             <ymax>{}</ymax>
         </bndbox>
-    </object>""".format(classes[box.class_id], box.x_min, box.y_min, box.x_max, box.y_max))
+    </object>""".format(allowed_classes[box.class_id], box.x_min, box.y_min, box.x_max, box.y_max))
         form.childNodes[0].appendChild(object.childNodes[0])
         
     xml_content = form.toxml()
@@ -212,7 +196,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Tool for converting PascalVOC format to yolo format')
     parser.add_argument('input', help='Input directory where PascalVOC (XML) formatted files are')
     parser.add_argument('output', help='Output directory where yolo files will be written')
-    parser.add_argument('modelConf', help='Path to the YAML model configuration file. It contains at least le list of classes ')
+    parser.add_argument('modelConf', help='Path to the YAML model configuration file. It contains at least the list of classes ')
     
     args = parser.parse_args()
     
